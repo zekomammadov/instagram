@@ -1,0 +1,57 @@
+.container {
+    width: 992px;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-around {
+    justify-content: space-around;
+}
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.items-center {
+    align-items: center;
+}
+.flex-col {
+    flex-direction: column;
+}
+.f-12 {
+    font-size: 12px;
+}
+.f-14 {
+    font-size: 14px;
+}
+.f-16 {
+    font-size: 16px;
+}
+.f-18 {
+    font-size: 18px;
+}
+.text-center {
+    text-align: center;
+}
+.border-bottom {
+    border-bottom: 1px solid var(--border-color);
+}
+.border-top {
+    border-top: 1px solid var(--border-color);
+}
+.icon {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.f-600 {
+    font-weight: 600 !important;
+}
